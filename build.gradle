@@ -16,3 +16,10 @@ buildscript {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+
+//buildscript {
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle'
+//    }
+//}
