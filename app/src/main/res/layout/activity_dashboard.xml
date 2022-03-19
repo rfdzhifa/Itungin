@@ -32,6 +32,7 @@
                 android:textSize="14dp" />
 
             <TextView
+                android:id="@+id/user"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_medium"
@@ -61,67 +62,69 @@
             android:layout_marginBottom="0dp"
             android:background="@drawable/add_button" />
 
-    </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="75dp"
-        android:background="@drawable/card"
-        android:padding="25dp"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="260dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins"
-                android:text="Current balance"
-                android:textColor="#85FFFFFF"
-                android:textSize="12dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Rp 1.930.000"
-                android:textColor="#FFFFFF"
-                android:textSize="22dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="bottom"
-                android:layout_marginEnd="0dp"
-                android:layout_marginBottom="0dp"
-                android:fontFamily="@font/poppins"
-                android:text="Nur Aliya Fajri"
-                android:textColor="#FFFFFF"
-                android:textSize="12dp"
-                android:gravity="bottom"/>
-
-        </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:layout_gravity="end">
+            android:layout_height="200dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/card"
+            android:orientation="horizontal"
+            android:padding="25dp">
 
-            <ImageView
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="260dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/card_logo"
-                android:layout_gravity="right"
-                android:foregroundGravity="right"/>
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="Current balance"
+                    android:textColor="#85FFFFFF"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/Nominal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Rp 1.930.000"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/user2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="bottom"
+                    android:text="Nur Aliya Fajri"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:foregroundGravity="right"
+                    android:src="@drawable/card_logo" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
