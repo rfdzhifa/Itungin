@@ -15,14 +15,15 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:id="@+id/ATAS"
+            android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="248dp"
+            android:layout_marginEnd="168dp"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="181dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:fontFamily="@font/poppins_medium"
@@ -68,8 +69,8 @@
         android:layout_height="200dp"
         android:layout_marginTop="75dp"
         android:background="@drawable/card"
-        android:padding="25dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="25dp">
 
         <LinearLayout
             android:layout_width="260dp"
@@ -82,7 +83,7 @@
                 android:fontFamily="@font/poppins"
                 android:text="Current balance"
                 android:textColor="#85FFFFFF"
-                android:textSize="12dp"/>
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -90,7 +91,7 @@
                 android:fontFamily="@font/poppins_medium"
                 android:text="Rp 1.930.000"
                 android:textColor="#FFFFFF"
-                android:textSize="22dp"/>
+                android:textSize="22dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -99,25 +100,25 @@
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
                 android:fontFamily="@font/poppins"
+                android:gravity="bottom"
                 android:text="Nur Aliya Fajri"
                 android:textColor="#FFFFFF"
-                android:textSize="12dp"
-                android:gravity="bottom"/>
+                android:textSize="12dp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="right"
-            android:layout_gravity="end">
+            android:layout_gravity="end"
+            android:gravity="right">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/card_logo"
                 android:layout_gravity="right"
-                android:foregroundGravity="right"/>
+                android:foregroundGravity="right"
+                android:src="@drawable/card_logo" />
 
         </LinearLayout>
 

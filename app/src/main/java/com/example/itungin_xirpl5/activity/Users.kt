@@ -1,6 +1,6 @@
 package com.example.itungin_xirpl5.activity
 
-class Users(title: String, desc: String, nominal: String) {
+class Users (var title : String, var desc : String, var nominal : String) {
 
     constructor() : this("", "","") {
     }
