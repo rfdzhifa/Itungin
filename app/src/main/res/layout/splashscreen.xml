@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/bawah" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/splash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_medium"
