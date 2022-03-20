@@ -3,30 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:padding="30dp"
-    android:background="#F5F5F5">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <View
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:background="@drawable/back"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="25dp"
-            android:text="Transaction"
-            android:textAlignment="center"
-            android:fontFamily="@font/poppins_medium"
-            android:textColor="#4B4B4B"
-            android:textSize="16sp"/>
-
-    </RelativeLayout>
+    android:orientation="vertical">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/menu_drop"
@@ -120,6 +97,5 @@
         android:textAllCaps="false"
         android:fontFamily="@font/poppins_medium"
         />
-
 
 </LinearLayout>

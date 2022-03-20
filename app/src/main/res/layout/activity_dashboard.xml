@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,43 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="248dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Good Morning,"
-                android:textAlignment="gravity"
-                android:textColor="#979797"
-                android:textSize="14dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_medium"
-                android:text="Aliya Fajri!"
-                android:textColor="#4B4B4B"
-                android:textSize="16dp" />
-
-        </LinearLayout>
-
-        <View
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/profile"
-            android:foregroundGravity="right" />
 
         <View
             android:id="@+id/buttonAdd"
@@ -66,7 +28,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/card"
         android:padding="25dp"
         android:orientation="horizontal">
@@ -130,13 +92,13 @@
         android:textColor="#979797"
         android:fontFamily="@font/poppins_medium"
         android:textSize="18dp"
-        android:layout_marginTop="300dp"/>
+        android:layout_marginTop="250dp"/>
 
     <ListView
         android:id="@+id/lvTransaksi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="290dp"
         android:scrollbars="none">
 
     </ListView>
