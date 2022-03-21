@@ -1,8 +1,8 @@
 package com.example.itungin_xirpl5.activity
 
-class Users(var title: String, var desc: String, var nominal: Int) {
+class Users (var title : String, var desc : String, var nominal : String) {
 
-    constructor() : this("", "",0) {
+    constructor() : this("", "","") {
     }
 }
 
