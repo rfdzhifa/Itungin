@@ -19,7 +19,7 @@
             android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="168dp"
+            android:layout_marginEnd="154dp"
             android:orientation="vertical">
 
             <TextView
@@ -56,10 +56,10 @@
             android:id="@+id/buttonAdd"
             android:layout_width="46dp"
             android:layout_height="46dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="0dp"
+            android:layout_marginTop="293dp"
+            android:layout_marginEnd="5dp"
             android:background="@drawable/add_button" />
 
     </RelativeLayout>
@@ -67,8 +67,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_alignTop="@+id/profile_up"
         android:layout_marginTop="75dp"
-        android:background="@drawable/card"
+        android:background="@drawable/kartu"
         android:orientation="horizontal"
         android:padding="25dp">
 
@@ -127,16 +128,18 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profile_up"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="Transaction"
         android:textColor="#979797"
-        android:fontFamily="@font/poppins_medium"
-        android:textSize="18dp"
-        android:layout_marginTop="300dp"/>
+        android:textSize="18dp" />
 
     <ListView
-        android:id="@+id/lvTransaksi"
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profile_up"
         android:layout_marginTop="340dp"
         android:scrollbars="none">
 

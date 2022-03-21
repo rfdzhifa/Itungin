@@ -5,15 +5,15 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label=""
+        android:label="Itungin"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Itungin_XIRPL5">
+<!--        <activity-->
+<!--            android:name=".activity.ShowActivity"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".activity.DashboardActivity"
-            android:exported="true"/>
-        <activity
-            android:name=".activity.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.TransactionActivity"/>
+        <activity android:name=".activity.TransactionActivity" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

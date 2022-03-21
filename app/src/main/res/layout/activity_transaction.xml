@@ -132,6 +132,7 @@
             android:paddingStart="20dp"
             android:paddingTop="20dp"
             android:paddingEnd="20dp"
+            android:inputType="numberDecimal"
             android:textColorHighlight="@color/textColorHighlight" />
 
     </com.google.android.material.textfield.TextInputLayout>

@@ -3,10 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin-/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin-/app/src/main/res/layout/activity_transaction.xml" value="0.25" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin-/app/src/main/res/layout/item_transaction.xml" value="0.10625" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin-/app/src/main/res/layout/list_item.xml" value="0.10625" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin-/app/src/main/res/layout/listview_income.xml" value="0.10625" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin-/app/src/main/res/layout/listview_spending.xml" value="0.10625" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin-/app/src/main/res/layout/splashscreen.xml" value="0.10625" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin-/app/src/main/res/layout/users.xml" value="0.20416666666666666" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1195" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/activity_show.xml" value="0.33" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/activity_transaction.xml" value="0.25" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/item_transaction.xml" value="0.33" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/list_item.xml" value="0.5" />
         <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/listview_income.xml" value="0.1213768115942029" />
-        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/listview_spending.xml" value="0.1213768115942029" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/listview_spending.xml" value="0.67" />
+        <entry key="..\:/Ilham/XI/Semester 2/KK4/Tugas/AndroidStudioProjects/Itungin/app/src/main/res/layout/users.xml" value="0.11865942028985507" />
         <entry key="..\:/MAPEL KELAS IX/KK4B MOBILE/SEMESTER 2/Itungin/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
         <entry key="..\:/MAPEL KELAS IX/KK4B MOBILE/SEMESTER 2/Itungin/app/src/main/res/layout/activity_transaction.xml" value="0.20471014492753623" />
         <entry key="..\:/MAPEL KELAS IX/KK4B MOBILE/SEMESTER 2/Itungin/app/src/main/res/layout/splashscreen.xml" value="0.20471014492753623" />
