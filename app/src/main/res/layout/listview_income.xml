@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingHorizontal="15dp"
     android:paddingVertical="7dp"
     android:orientation="horizontal">
 
     <TextView
         android:id="@+id/titleIncome"
-        android:layout_width="200dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:text="Salary"
         android:textColor="#4b4b4b"
@@ -20,13 +19,33 @@
 
     <TextView
         android:id="@+id/nomIncome"
-        android:layout_width="match_parent"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="100000"
         android:textColor="#365936"
         android:textSize="16dp"
         android:textAlignment="textEnd"
         android:fontFamily="@font/poppins_medium"
+        tools:ignore="MissingConstraints"
+        android:layout_marginRight="15dp"/>
+
+    <ImageButton
+        android:id="@+id/updateButton"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:textAlignment="textEnd"
+        android:background="@drawable/edit"
+        android:foregroundGravity="clip_vertical"
         tools:ignore="MissingConstraints" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:textAlignment="textEnd"
+        android:background="@drawable/ic_baseline_delete_24"
+        android:foregroundGravity="clip_vertical"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="15dp"/>
+
+</LinearLayout>
